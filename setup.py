@@ -1,3 +1,7 @@
+###This file is essential for making your project installable and distributable as a Python package.
+#It contains metadata about your project, such as its name, version, and dependencies. When someone runs pip install . 
+#in your project's directory, setup.py tells pip how to build and install the package.
+
 from setuptools import find_packages,setup
 from typing import List
 
